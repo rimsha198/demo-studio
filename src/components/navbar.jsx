@@ -1,6 +1,6 @@
 import styles from"@/styles/components/navbar.module.css"
 import Image from "next/image"
-import logo from "@/assest/logos/svg/logo-dark.svg"
+import logo from "@/assets/logos/svg/logo-dark.svg"
 
 
 const NavBar = () =>{
