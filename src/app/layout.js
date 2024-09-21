@@ -1,6 +1,7 @@
 import localFont from "next/font/local";
 import "./globals.css";
 import NavBar from "@/components/navbar";
+import {Montserrat} from "next/font/google"
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -11,6 +12,10 @@ const geistMono = localFont({
   src: "./fonts/GeistMonoVF.woff",
   variable: "--font-geist-mono",
   weight: "100 900",
+});
+
+const montserrat=Montserrat({
+  subsets:["latin"]
 });
 
 export const metadata = {

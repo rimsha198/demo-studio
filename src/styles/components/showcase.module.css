@@ -1,0 +1,54 @@
+
+
+.showcase{
+    margin-top: 56px;
+}
+
+.wrapper{
+    max-width: 1340px;
+    margin: auto;
+
+}
+.brands{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.brands>img{
+    width: 144px;
+    object-fit: fill;
+}
+.text{
+    font-size: 80px;
+    font-weight: 500;
+    line-height: 92px;
+
+}
+.bottomEnd{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 56px;
+    max-width: 1050px;
+}
+.userProfiles>img{
+    border-radius: 100%;
+    width: 96px;
+    height: 96px;
+    object-fit: fill;
+}
+
+.timelineText{
+    margin-left: 96px;
+    max-width: 360px;
+
+
+}
+.timelineText>h3{
+    font-weight: 500;
+
+}
+.timelineText>p{
+    font-weight: 700;
+}

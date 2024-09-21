@@ -1,20 +1,49 @@
 .wrapper {
-    max-width: 1440px;
+    max-width: 1340px;
     margin: auto;
     display: flex;
     align-items: last baseline;
     justify-content: space-between;
 }
 
+.rightWrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: last baseline;
+    background-color: beige;
+}
 
+.rightWrapper:nth-child(2) h3{
+    padding: 0 56px;
+    font-weight: 500;
+}
 
+.rightWrapper > div {
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.rightWrapper > button {
+    background-color: black;
+    color: white;
+    padding: 12px 20px;
+    border-radius:  50px; 
+    display: flex;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.rightWrapper>button>span{
+    padding-right: 20px;
+}
 .heroText {
     font-size: 68px;
+    font-weight: 500;
 }
 
 .heroImage {
-    width: 1560px;
-    height: 480px;
+    width: 1340px;
+    height: 560px;
     margin: auto;
     display: flex;
     border-radius: 56px;
